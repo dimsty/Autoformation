@@ -30,7 +30,7 @@ $lescontinents=$reqContinent->fetchAll();
 
 <div class="form-group">
     <label for="continent">Libellé</label>
-    <input type="texte" class="form-control" id="libelle" placeholder="Saisir le libellé" name="libelle" value="<?php if($action == 'Modifier'){echo $laNationalite->libelle;}?>">
+    <input type="text" class="form-control" id="libelle" placeholder="Saisir le libellé" name="libelle" value="<?php if($action == 'Modifier'){echo $laNationalite->libelle;}?>">
 </div>
 <div class="form-group">
     <label for="libelle">Libellé</label>
